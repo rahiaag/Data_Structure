@@ -1,0 +1,20 @@
+different between size++ and size=size+1
+
+
+In most programming languages, size++ and size = size + 1 are both used to increment the value of a variable by 1. However, there is a slight difference between the two.
+
+size++: This is called the post-increment operator. It increments the value of the variable size by 1 but returns the original value before the increment. In other words, the increment occurs after the current value is used. For example:
+
+code
+int size = 5;
+int result = size++; // result = 5, size = 6
+
+
+
+size = size + 1: This is an assignment statement that adds 1 to the value of size and assigns the incremented value back to size. It doesn't return any value. For example:
+
+code
+int size = 5;
+size = size + 1; // size = 6
+
+Both size++ and size = size + 1 achieve the same result of incrementing size by 1. The choice between them depends on the specific context and programming style. The post-increment operator (size++) is often used when you need to use the original value before the increment, while the assignment statement (size = size + 1) is more explicit and readable in cases where you only care about updating the value of size.
