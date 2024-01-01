@@ -1,5 +1,6 @@
 //Binary search always use on the sorted array other wise it will give wrong answer
 //Binary Search Time Complexity O(log n)
+//Learn this very Important and also you are going to make the visualization for this
 
 #include <iostream>
 using namespace std;
